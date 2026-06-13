@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@playwright/mcp@latest"]
+    },
+    "sqlite": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "mcp-server-sqlite-npx", "C:/Users/Hp/neverexpire/data/neverexpire.db"]
+    }
+  }
+}
